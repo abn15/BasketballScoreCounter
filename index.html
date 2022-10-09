@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="stylesheet" href="style.css"/>
+    <title>BASKETBALL SCORE COUNTER APP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home" >
+            <h1>HOME</h1>
+                <div class="card">
+                <p class="point" id="homepoint">0</p>
+                <div>
+                  <button class="button" id="home1" onclick="addpoint1h()">+1</button>
+                  <button class="button" id="home2" onclick="addpoint2h()">+2</button>
+                  <button class="button" id="home3" onclick="addpoint3h()">+3</button>
+                </div>
+                <button class="button" id="homer" onclick="reseth()">Reset</button>
+              </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="card">
+                  <p class="point" id="guestpoint">0</p>
+                  <div>
+                    <button class="button" id="guest1" onclick="addpoint1g()">
+                      +1
+                    </button>
+                    <button class="button" id="guest2" onclick="addpoint2g()">
+                      +2
+                    </button>
+                    <button class="button" id="guest3" onclick="addpoint3g()">
+                      +3
+                    </button>
+                  </div>
+                  <button class="button" id="guestr" onclick="resetg()">Reset</button>
+                </div>
+              </div>
+              <button class="button" id="newgame" onclick="newgame()">New Game</button>
+            </div>
+          </body>
+          <script src="main.js"></script>
+        </html>

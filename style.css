@@ -1,0 +1,130 @@
+@import url("https://fonts.cdnfonts.com/css/roblox-new");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "score";
+  src: url("/assets/fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+  font-family: "Gotham Black", sans-serif;
+  background-color: darkmagenta;
+  
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+h1 {
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: coral;
+  height: 300px;
+  width: 700px;
+}
+.card {
+  margin-top: 20px;
+  height: 110px;
+  width: fit-content;
+  background-color: black;
+  text-align: center;
+}
+.point {
+  font-family: "score";
+  color: pink;
+  font-size: 90px;
+  padding-top: 10px;
+}
+.button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  color: aliceblue;
+  background-color: limegreen;
+  border: solid 1px white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#newgame {
+  background-color: black;
+  font-family: "Gotham Black", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Gotham Black", sans-serif;
+    background-color: rgb(16, 16, 61);
+    background-image: none;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+  }
+  h1 {
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .guest {
+    padding: 0;
+    margin-top: 200px;
+  }
+  .guest h1 {
+    margin-top: 0px;
+  }
+  .container {
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(255, 242, 242, 0);
+    height: 10px;
+    width: auto;
+    margin-bottom: 90px;
+  }
+  .card {
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    text-align: center;
+  }
+  .point {
+    font-family: "score";
+    color: rgb(48, 42, 165);
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .button {
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(21, 47, 153);
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #newgame {
+    background-color: black;
+    font-family: "Gotham Black", sans-serif;
+    margin-top: 240px;
+  }
+}
